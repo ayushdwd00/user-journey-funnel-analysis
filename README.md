@@ -56,23 +56,35 @@ User Journey Funnel/
 ## 📈 Analysis Performed
 
 ### Funnel Analysis
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4ba3bbf43ce40600e456b9c44f54723985caa537
 - User progression through funnel stages
 - Conversion rate calculation
 - Drop-off identification
 
 ### Device Analysis
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4ba3bbf43ce40600e456b9c44f54723985caa537
 - Performance comparison across devices
 - User distribution by device type
 
 ### Traffic Source Analysis
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4ba3bbf43ce40600e456b9c44f54723985caa537
 - Traffic source contribution
 - Conversion effectiveness by source
 
 ### Correlation Analysis
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4ba3bbf43ce40600e456b9c44f54723985caa537
 - Relationship between user behavior metrics
 - Heatmap visualization of key variables
 
