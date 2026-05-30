@@ -1,39 +1,45 @@
 # 📊 User Journey Funnel Analysis
 
-## 📌 Project Overview
-
-This project analyzes user behavior across a conversion funnel to identify drop-off points, traffic patterns, device performance, and opportunities to improve conversion rates.
-
-Using Python-based Exploratory Data Analysis (EDA), the project generates visual insights and automated reports that help understand how users move through different stages of the funnel.
+Analyze user behavior across a conversion funnel using Python, exploratory data analysis (EDA), interactive visualizations, and automated reporting.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Project Overview
 
-- Analyze user journey and conversion funnel performance
-- Identify stages with the highest user drop-off
-- Evaluate traffic source effectiveness
-- Compare user behavior across devices
-- Generate actionable business insights
+This project explores the user journey from initial website visit to final purchase. The goal is to identify conversion bottlenecks, understand user behavior patterns, and generate actionable business insights for improving funnel performance.
 
----
+Key areas analyzed:
 
-## 🛠️ Tools & Technologies
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Plotly
-- Jupyter Notebook
+* Funnel conversion performance
+* User drop-off analysis
+* Device-wise behavior
+* Traffic source effectiveness
+* Monthly conversion trends
+* Business KPI tracking
 
 ---
 
-## 📂 Project Structure
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Plotly
+* Jupyter Notebook
+* HTML Reporting
+
+---
+
+## 📂 Repository Structure
 
 ```text
-User Journey Funnel/
+user-journey-funnel-analysis/
+│
+├── dashboard-images/
+│   ├── img1.png
+│   ├── img2.png
+│   ├── img3.png
+│   └── img4.png
 │
 ├── data/
 │   └── user_data_updated.csv
@@ -43,7 +49,6 @@ User Journey Funnel/
 │   ├── chart_funnel.png
 │   ├── chart_heatmap.png
 │   ├── chart_traffic.png
-│   ├── funnel_chart.png
 │   └── funnel_analysis_report.pdf
 │
 ├── analysis.ipynb
@@ -53,95 +58,103 @@ User Journey Funnel/
 
 ---
 
-## 📈 Analysis Performed
+## 📈 Key Metrics
+
+| Metric          | Value  |
+| --------------- | ------ |
+| Total Visitors  | 10,000 |
+| Sign-Ups        | 5,000  |
+| Cart Adds       | 1,525  |
+| Purchases       | 737    |
+| Conversion Rate | 7.37%  |
+
+---
+
+## 📊 Dashboard Preview
+
+### KPI Overview
+
+![Dashboard Overview](dashboard-images/img1.png)
 
 ### Funnel Analysis
-<<<<<<< HEAD
 
-=======
->>>>>>> 4ba3bbf43ce40600e456b9c44f54723985caa537
-- User progression through funnel stages
-- Conversion rate calculation
-- Drop-off identification
+![Funnel Analysis](dashboard-images/img2.png)
+
+### Conversion Insights
+
+![Conversion Insights](dashboard-images/img3.png)
+
+### Traffic & Device Analysis
+
+![Traffic Analysis](dashboard-images/img4.png)
+
+---
+
+## 🔍 Analysis Performed
+
+### Funnel Analysis
+
+* Visitor-to-signup conversion
+* Signup-to-cart conversion
+* Cart-to-purchase conversion
+* Drop-off identification
 
 ### Device Analysis
-<<<<<<< HEAD
 
-=======
->>>>>>> 4ba3bbf43ce40600e456b9c44f54723985caa537
-- Performance comparison across devices
-- User distribution by device type
+* User distribution by device
+* Device performance comparison
 
 ### Traffic Source Analysis
-<<<<<<< HEAD
 
-=======
->>>>>>> 4ba3bbf43ce40600e456b9c44f54723985caa537
-- Traffic source contribution
-- Conversion effectiveness by source
+* Source-wise traffic contribution
+* Conversion effectiveness by source
 
-### Correlation Analysis
-<<<<<<< HEAD
+### Trend Analysis
 
-=======
->>>>>>> 4ba3bbf43ce40600e456b9c44f54723985caa537
-- Relationship between user behavior metrics
-- Heatmap visualization of key variables
-
----
-
-## 📊 Visualizations
-
-The project includes:
-
-- Funnel Conversion Chart
-- Device Distribution Analysis
-- Traffic Source Analysis
-- Correlation Heatmap
-- Interactive HTML Report
-- PDF Business Report
-
----
-
-## 🔑 Key Insights
-
-- Identified major drop-off stages in the user journey
-- Evaluated top-performing traffic channels
-- Compared conversion behavior across devices
-- Generated recommendations for funnel optimization
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository
-
-```bash
-git clone <repository-url>
-```
-
-2. Install dependencies
-
-```bash
-pip install pandas numpy matplotlib seaborn plotly
-```
-
-3. Open the notebook
-
-```bash
-jupyter notebook analysis.ipynb
-```
-
-4. Run all cells to generate reports and visualizations
+* Monthly visitor trends
+* Purchase trends
+* Conversion rate tracking
 
 ---
 
 ## 📄 Outputs
 
-- Interactive HTML Report
-- PDF Funnel Analysis Report
-- Visual Charts and Graphs
-- Business Insights Summary
+* Interactive HTML Dashboard
+* PDF Business Report
+* Funnel Visualizations
+* KPI Summary Dashboard
+* Business Insights
+
+---
+
+## 🚀 How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ayushdwd00/user-journey-funnel-analysis.git
+```
+
+Install dependencies:
+
+```bash
+pip install pandas numpy plotly
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook analysis.ipynb
+```
+
+---
+
+## 💡 Business Insights
+
+* Significant user drop-off occurs between Sign-Up and Cart stages.
+* Conversion rate stands at 7.37%.
+* Funnel analysis helps identify optimization opportunities.
+* Traffic and device segmentation reveal high-performing channels.
 
 ---
 
@@ -149,4 +162,4 @@ jupyter notebook analysis.ipynb
 
 **Ayush Dwivedi**
 
-Aspiring Data Analyst | Python | Power BI | Data Visualization
+Aspiring Data Analyst | Python | SQL | Power BI | Data Visualization
